@@ -1,0 +1,518 @@
+,State,RegionName
+0,AL,Auburn 
+1,AL,Florence 
+2,AL,Jacksonville 
+3,AL,Livingston 
+4,AL,Montevallo 
+5,AL,Troy 
+6,AL,Tuscaloosa 
+7,AL,Tuskegee 
+8,AK,Fairbanks 
+9,AZ,Flagstaff 
+10,AZ,Tempe 
+11,AZ,Tucson 
+12,AR,Arkadelphia 
+13,AR,Conway 
+14,AR,Fayetteville 
+15,AR,Jonesboro 
+16,AR,Magnolia 
+17,AR,Monticello 
+18,AR,Russellville 
+19,AR,Searcy 
+20,CA,Angwin 
+21,CA,Arcata 
+22,CA,Berkeley 
+23,CA,Chico 
+24,CA,Claremont 
+25,CA,Cotati 
+26,CA,Davis 
+27,CA,Irvine 
+28,CA,Isla Vista 
+29,CA,"University Park, Los Angeles "
+30,CA,Merced 
+31,CA,Orange 
+32,CA,Palo Alto 
+33,CA,Pomona  and formerly Pomona College
+34,CA,Redlands 
+35,CA,Riverside 
+36,CA,Sacramento 
+37,CA,"University District, San Bernardino "
+38,CA,San Diego 
+39,CA,San Luis Obispo 
+40,CA,Santa Barbara 
+41,CA,Santa Cruz 
+42,CA,Turlock 
+43,CA,"Westwood, Los Angeles "
+44,CA,Whittier 
+45,CO,Alamosa 
+46,CO,Boulder 
+47,CO,Durango 
+48,CO,Fort Collins 
+49,CO,Golden 
+50,CO,Grand Junction 
+51,CO,Greeley 
+52,CO,Gunnison 
+53,CO,"Pueblo, Colorado "
+54,CT,Fairfield 
+55,CT,Middletown 
+56,CT,New Britain 
+57,CT,New Haven 
+58,CT,New London 
+59,CT,Storrs 
+60,CT,Willimantic 
+61,DE,Dover 
+62,DE,Newark 
+63,FL,Ave Maria 
+64,FL,Boca Raton 
+65,FL,Coral Gables 
+66,FL,DeLand 
+67,FL,Estero 
+68,FL,Gainesville 
+69,FL,Orlando 
+70,FL,Sarasota 
+71,FL,St. Augustine 
+72,FL,St. Leo 
+73,FL,Tallahassee 
+74,FL,Tampa 
+75,GA,Albany 
+76,GA,Athens 
+77,GA,Atlanta 
+78,GA,Carrollton 
+79,GA,Demorest 
+80,GA,Fort Valley 
+81,GA,Kennesaw 
+82,GA,Milledgeville 
+83,GA,Mount Vernon 
+84,GA,Oxford 
+85,GA,Rome 
+86,GA,Savannah 
+87,GA,Statesboro 
+88,GA,Valdosta 
+89,GA,Waleska 
+90,GA,Young Harris 
+91,HI,Manoa 
+92,ID,Moscow 
+93,ID,Pocatello 
+94,ID,Rexburg 
+95,IL,Carbondale 
+96,IL,Champaign–Urbana 
+97,IL,Charleston 
+98,IL,DeKalb 
+99,IL,Edwardsville 
+100,IL,Evanston 
+101,IL,Lebanon 
+102,IL,Macomb 
+103,IL,Normal 
+104,IL,Peoria 
+105,IN,Bloomington 
+106,IN,Crawfordsville 
+107,IN,Greencastle 
+108,IN,Hanover 
+109,IN,Marion 
+110,IN,Muncie 
+111,IN,Oakland City 
+112,IN,Richmond 
+113,IN,South Bend 
+114,IN,Terre Haute 
+115,IN,Upland 
+116,IN,Valparaiso 
+117,IN,West Lafayette 
+118,IA,Ames 
+119,IA,Cedar Falls 
+120,IA,"Cedar Rapids, Iowa "
+121,IA,Decorah 
+122,IA,Fayette 
+123,IA,Grinnell 
+124,IA,Iowa City 
+125,IA,Lamoni 
+126,IA,"Mount Vernon, "
+127,IA,Orange City 
+128,IA,Sioux Center 
+129,IA,Storm Lake 
+130,IA,Waverly 
+131,KS,Baldwin City 
+132,KS,Emporia 
+133,KS,Hays 
+134,KS,Lawrence 
+135,KS,Manhattan 
+136,KS,Pittsburg 
+137,KY,Bowling Green 
+138,KY,Columbia 
+139,KY,Georgetown 
+140,KY,Highland Heights 
+141,KY,"Lexington (University of Kentucky, Transylvania University"
+142,KY,Louisville 
+143,KY,Morehead 
+144,KY,Murray 
+145,KY,Richmond 
+146,KY,Williamsburg 
+147,KY,Wilmore 
+148,LA,Baton Rouge 
+149,LA,Grambling 
+150,LA,Hammond 
+151,LA,Lafayette 
+152,LA,Monroe 
+153,LA,Natchitoches 
+154,LA,Ruston 
+155,LA,Thibodaux 
+156,ME,Augusta 
+157,ME,Bar Harbor 
+158,ME,Brunswick 
+159,ME,Farmington 
+160,ME,Fort Kent 
+161,ME,Gorham 
+162,ME,"Lewiston, Maine "
+163,ME,Orono 
+164,ME,Waterville 
+165,MD,Annapolis 
+166,MD,Chestertown 
+167,MD,College Park 
+168,MD,Cumberland 
+169,MD,Emmitsburg 
+170,MD,Frostburg 
+171,MD,Princess Anne 
+172,MD,Towson 
+173,MD,Salisbury 
+174,MD,Westminster 
+175,MA,Boston 
+176,MA,Bridgewater 
+177,MA,Cambridge 
+178,MA,Chestnut Hill 
+179,MA,The Colleges of Worcester Consortium:
+180,MA,Dudley 
+181,MA,North Grafton 
+182,MA,Paxton 
+183,MA,Worcester 
+184,MA,The Five College Region of Western Massachusetts:
+185,MA,Amherst 
+186,MA,Northampton 
+187,MA,South Hadley 
+188,MA,Fitchburg 
+189,MA,North Adams 
+190,MA,Springfield 
+191,MA,Waltham 
+192,MA,Williamstown 
+193,MA,Framingham 
+194,MI,Adrian 
+195,MI,Albion 
+196,MI,Allendale 
+197,MI,Alma 
+198,MI,Ann Arbor 
+199,MI,Berrien Springs 
+200,MI,Big Rapids 
+201,MI,East Lansing 
+202,MI,Flint 
+203,MI,Hillsdale 
+204,MI,Houghton 
+205,MI,Kalamazoo 
+206,MI,Marquette 
+207,MI,Midland 
+208,MI,Mount Pleasant 
+209,MI,Olivet 
+210,MI,Saginaw 
+211,MI,Sault Ste. Marie 
+212,MI,Spring Arbor 
+213,MI,Ypsilanti 
+214,MN,Bemidji 
+215,MN,Crookston 
+216,MN,"Duluth (University of Minnesota Duluth, Lake Superior College, The College of St. Scholastica, University of Wisconsin–Superior, Duluth Business University"
+217,MN,"Faribault, South Central College"
+218,MN,"Mankato , Bethany Lutheran College"
+219,MN,Marshall 
+220,MN,Moorhead 
+221,MN,Morris 
+222,MN,Northfield 
+223,MN,"North Mankato, South Central College"
+224,MN,St. Cloud 
+225,MN,St. Joseph 
+226,MN,St. Peter 
+227,MN,Winona 
+228,MS,Cleveland 
+229,MS,Hattiesburg 
+230,MS,Itta Bena 
+231,MS,Oxford 
+232,MS,Starkville 
+233,MO,Bolivar 
+234,MO,Cape Girardeau 
+235,MO,Columbia 
+236,MO,Fayette 
+237,MO,Fulton .
+238,MO,Kirksville 
+239,MO,Maryville 
+240,MO,Rolla 
+241,MO,Warrensburg 
+242,MT,Bozeman 
+243,MT,Dillon 
+244,MT,Missoula 
+245,NE,Chadron 
+246,NE,Crete 
+247,NE,Kearney 
+248,NE,Lincoln 
+249,NE,Peru 
+250,NE,Seward 
+251,NE,Wayne 
+252,NV,Las Vegas 
+253,NV,Reno 
+254,NH,"New London, New Hampshire "
+255,NH,Durham 
+256,NH,Hanover 
+257,NH,Henniker 
+258,NH,Keene 
+259,NH,Plymouth 
+260,NH,Rindge 
+261,NJ,Ewing 
+262,NJ,Jersey City 
+263,NJ,Glassboro 
+264,NJ,Hoboken 
+265,NJ,Madison 
+266,NJ,Newark 
+267,NJ,New Brunswick 
+268,NJ,Princeton 
+269,NJ,Union 
+270,NJ,West Long Branch 
+271,NM,Hobbs 
+272,NM,Las Cruces 
+273,NM,Las Vegas 
+274,NM,Portales 
+275,NM,Silver City 
+276,NY,Alfred 
+277,NY,Albany 
+278,NY,Aurora 
+279,NY,Binghamton 
+280,NY,Brockport 
+281,NY,Buffalo 
+282,NY,Canton 
+283,NY,Clinton 
+284,NY,Cobleskill 
+285,NY,Delhi 
+286,NY,Fredonia 
+287,NY,Geneseo 
+288,NY,Geneva 
+289,NY,Hamilton 
+290,NY,Ithaca 
+291,NY,"Morningside Heights, Manhattan "
+292,NY,New Paltz 
+293,NY,Oneonta 
+294,NY,Oswego 
+295,NY,Plattsburgh 
+296,NY,Potsdam 
+297,NY,Poughkeepsie 
+298,NY,Purchase 
+299,NY,Rochester 
+300,NY,Saratoga Springs 
+301,NY,Seneca Falls 
+302,NY,Stony Brook 
+303,NY,Syracuse 
+304,NY,Tivoli 
+305,NY,Troy 
+306,NY,West Point 
+307,NC,Banner Elk 
+308,NC,Boiling Springs 
+309,NC,Boone 
+310,NC,Buies Creek 
+311,NC,Chapel Hill 
+312,NC,Cullowhee 
+313,NC,Davidson 
+314,NC,Durham 
+315,NC,Elon 
+316,NC,Greensboro 
+317,NC,Greenville 
+318,NC,Hickory 
+319,NC,Mars Hill 
+320,NC,Mount Olive 
+321,NC,Pembroke 
+322,NC,"Wilmington, North Carolina "
+323,NC,Wingate 
+324,NC,Winston-Salem 
+325,ND,Fargo 
+326,ND,Grand Forks 
+327,OH,Ada 
+328,OH,Alliance 
+329,OH,Ashland 
+330,OH,Athens 
+331,OH,Berea 
+332,OH,Bluffton 
+333,OH,Bowling Green 
+334,OH,Cedarville 
+335,OH,Columbus 
+336,OH,Delaware 
+337,OH,Fairborn 
+338,OH,Findlay 
+339,OH,Gambier 
+340,OH,Granville 
+341,OH,Hiram 
+342,OH,Kent 
+343,OH,Nelsonville 
+344,OH,New Concord 
+345,OH,Oberlin 
+346,OH,Oxford 
+347,OH,Rio Grande 
+348,OH,Wilberforce 
+349,OK,Ada 
+350,OK,Alva 
+351,OK,Durant 
+352,OK,Edmond 
+353,OK,Goodwell 
+354,OK,Langston 
+355,OK,Norman 
+356,OK,Stillwater 
+357,OK,Tahlequah 
+358,OK,Tulsa 
+359,OK,Weatherford 
+360,OR,Ashland 
+361,OR,Corvallis 
+362,OR,Eugene 
+363,OR,Forest Grove 
+364,OR,Klamath Falls 
+365,OR,La Grande 
+366,OR,Marylhurst 
+367,OR,McMinnville 
+368,OR,Monmouth 
+369,OR,Newberg 
+370,PA,Altoona 
+371,PA,Annville 
+372,PA,Bethlehem 
+373,PA,Bloomsburg 
+374,PA,Bradford 
+375,PA,California 
+376,PA,Carlisle 
+377,PA,"Cecil B. Moore, Philadelphia, also known as ""Templetown"" "
+378,PA,Clarion 
+379,PA,Collegeville 
+380,PA,Cresson 
+381,PA,East Stroudsburg 
+382,PA,Edinboro 
+383,PA,Erie 
+384,PA,Gettysburg 
+385,PA,Greensburg 
+386,PA,Grove City 
+387,PA,Huntingdon 
+388,PA,Indiana 
+389,PA,Johnstown 
+390,PA,Kutztown 
+391,PA,Lancaster 
+392,PA,Lewisburg 
+393,PA,Lock Haven 
+394,PA,Loretto 
+395,PA,Mansfield 
+396,PA,Meadville 
+397,PA,Mont Alto 
+398,PA,Millersville 
+399,PA,New Wilmington 
+400,PA,North East 
+401,PA,"University City, Philadelphia "
+402,PA,"Oakland, Pittsburgh "
+403,PA,Reading 
+404,PA,Selinsgrove 
+405,PA,Shippensburg 
+406,PA,Slippery Rock 
+407,PA,State College 
+408,PA,Villanova 
+409,PA,Waynesburg 
+410,PA,West Chester 
+411,PA,Wilkes-Barre 
+412,PA,Williamsport 
+413,RI,Kingston 
+414,RI,Providence 
+415,SC,Central 
+416,SC,Charleston 
+417,SC,Clemson 
+418,SC,Clinton 
+419,SC,Columbia 
+420,SC,Due West 
+421,SC,Florence 
+422,SC,Greenwood 
+423,SC,Orangeburg 
+424,SC,Rock Hill 
+425,SC,Spartanburg 
+426,SD,Brookings 
+427,SD,Madison 
+428,SD,Spearfish 
+429,SD,Vermillion 
+430,TN,Chattanooga 
+431,TN,Collegedale 
+432,TN,Cookeville 
+433,TN,Harrogate 
+434,TN,Henderson 
+435,TN,Johnson City 
+436,TN,Knoxville 
+437,TN,Martin 
+438,TN,McKenzie 
+439,TN,Memphis 
+440,TN,Murfreesboro 
+441,TN,Nashville 
+442,TN,Sewanee 
+443,TX,Abilene 
+444,TX,Alpine 
+445,TX,Austin 
+446,TX,Beaumont 
+447,TX,Canyon 
+448,TX,College Station 
+449,TX,Commerce 
+450,TX,Dallas 
+451,TX,Denton 
+452,TX,Fort Worth 
+453,TX,Georgetown 
+454,TX,Huntsville 
+455,TX,Houston 
+456,TX,Keene 
+457,TX,Kingsville 
+458,TX,Lubbock 
+459,TX,Nacogdoches 
+460,TX,Plainview 
+461,TX,Prairie View 
+462,TX,San Marcos 
+463,TX,Stephenville 
+464,TX,Waco 
+465,UT,Cedar City 
+466,UT,Logan 
+467,UT,Provo 
+468,UT,Orem 
+469,UT,Salt Lake City 
+470,UT,Ephraim 
+471,VT,Burlington 
+472,VT,Castleton 
+473,VT,Johnson 
+474,VT,Lyndonville 
+475,VT,Middlebury 
+476,VT,Northfield 
+477,VA,Blacksburg 
+478,VA,Bridgewater 
+479,VA,Charlottesville 
+480,VA,Farmville 
+481,VA,Fredericksburg 
+482,VA,Harrisonburg 
+483,VA,Lexington 
+484,VA,Lynchburg 
+485,VA,Radford 
+486,VA,Williamsburg 
+487,VA,Wise 
+488,VA,Chesapeake 
+489,WA,Bellingham 
+490,WA,Cheney 
+491,WA,Ellensburg 
+492,WA,Pullman 
+493,WA,"University District, Seattle "
+494,WV,Athens 
+495,WV,Buckhannon 
+496,WV,Fairmont 
+497,WV,Glenville 
+498,WV,Huntington 
+499,WV,Montgomery 
+500,WV,Morgantown 
+501,WV,Shepherdstown 
+502,WV,West Liberty 
+503,WI,Appleton 
+504,WI,Eau Claire 
+505,WI,Green Bay 
+506,WI,La Crosse 
+507,WI,Madison 
+508,WI,Menomonie 
+509,WI,Milwaukee 
+510,WI,Oshkosh 
+511,WI,Platteville 
+512,WI,River Falls 
+513,WI,Stevens Point 
+514,WI,Waukesha 
+515,WI,Whitewater 
+516,WY,Laramie 
