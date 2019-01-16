@@ -5,7 +5,8 @@
 
 import pandas as pd
 import numpy as np
-from scipy.stats import ttest_ind
+import scipy.stats
+
 short_states = {'OH': 'Ohio', 'KY': 'Kentucky', 'AS': 'American Samoa', 'NV': 'Nevada', 
 'WY': 'Wyoming', 'NA': 'National', 'AL': 'Alabama', 'MD': 'Maryland', 
 'AK': 'Alaska', 'UT': 'Utah', 'OR': 'Oregon', 'MT': 'Montana', 
@@ -164,7 +165,7 @@ def final_university_df(df_1, df_2):
     # df_final_university.to_csv('df_final_university.csv')
     return university_rec_housing
 avg_university_housing_rec = final_university_df(housing_quarters, df_university_towns)
-print avg_university_housing_rec
+# print avg_university_housing_rec
 
 # ---------------------------------------------------------------------------
 def final_non_university_df(df_1, df_2):
@@ -181,9 +182,9 @@ def final_non_university_df(df_1, df_2):
     
     return non_university_rec_housing
 avg_non_university_housing_rec = final_non_university_df(housing_quarters, df_university_towns)
-print avg_non_university_housing_rec
+# print avg_non_university_housing_rec
 # ---------------------------------------------------------------------------
-def run_ttest(): 
+def run_ttest(serie_1, serie_2): 
     '''First creates new data showing the decline or growth of housing prices
     between the recession start and the recession bottom. Then runs a ttest
     comparing the university town values to the non-university towns values, 
@@ -197,9 +198,26 @@ def run_ttest():
     value for better should be either "university town" or "non-university town"
     depending on which has a lower mean price ratio (which is equivilent to a
     reduced market loss).'''
-    
-    return "ANSWER"   
-ttest = run_ttest()
+
+    Different = False
+    mean_university_housing = np.mean(serie_1).round(2)
+    mean_non_university_housing = np.mean(serie_2).round(2)
+
+    if mean_university_housing < mean_non_university_housing:
+        Better = 'University town'
+    elif mean_university_housing > mean_non_university_housing:
+        Better = 'Non university town'
+    else:
+        Better = 'No difference'
+
+    t_test = scipy.stats.ttest_ind(serie_1, serie_2)
+    p = t_test[1]
+    if p < 0.01:
+        Different = True
+
+    return (Different, p, Better)
+ttest = run_ttest(avg_university_housing_rec, avg_non_university_housing_rec)
+print ttest
 
 # a = [1, 2, 3, 4, 5, 7, 8, 9, 10]
 # b = [3, 4, 5, 6]
