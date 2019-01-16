@@ -25,7 +25,7 @@ states_short = dict((v,k) for k,v in short_states.iteritems())
 
 # Create array of tupples (state, town)
 university_towns = []
-with open('week_4/data/university_towns.txt') as file:
+with open('py_data_science/week_4/data/university_towns.txt') as file:
     for line in file:
         if '[edit]' in line:
             state = line
@@ -59,7 +59,7 @@ df_university_towns =  get_list_of_university_towns(university_towns)
 
 # Create DataFrame with the information of the recession start time
 def handle_df_for_recession():
-    df_GDP = pd.read_excel('week_4/data/gdplev_0.xlsx')
+    df_GDP = pd.read_excel('py_data_science/week_4/data/gdplev_0.xlsx')
     df_GDP = df_GDP.reset_index()
     df_GDP.rename(columns={df_GDP.columns[0]: 'Year', 
     df_GDP.columns[1]: 'col_1', 
@@ -124,7 +124,7 @@ recession_bottom = get_recession_bottom(df_GDP)
 
 # ---------------------------------------------------------------------------
 def convert_housing_data_to_quarters():
-    df_housing = pd.read_csv('week_4/data/City_Zhvi_AllHomes.csv')
+    df_housing = pd.read_csv('py_data_science/week_4/data/City_Zhvi_AllHomes.csv')
     first_columns = df_housing.columns[0:6].tolist()
     last_columns = df_housing.columns[51:].tolist()
     columns_to_keep = first_columns + last_columns
@@ -153,15 +153,17 @@ housing_quarters = convert_housing_data_to_quarters()
 def final_university_df(df_1, df_2):
     first_quarter = recession_start
     last_quarter = recession_bottom
-    print first_quarter
-    print last_quarter
+    # print first_quarter
+    # print last_quarter
+    columns_to_keep = ['State', 'RegionName'] + ['2008q1','2008q2', '2008q3', '2008q4','2009q1', '2009q2']
+    housing_in_recession = df_1[columns_to_keep]
+    print housing_in_recession
+    print df_2
 
-    # print df_2
-    # print df_1
     university_towns = df_2.RegionName.values
-    print university_towns
+    # print university_towns
 
-    df_final_university = df_1.where(df_1['RegionName'].isin(university_towns)).dropna()
+    df_final_university = housing_in_recession.where(housing_in_recession['RegionName'].isin(university_towns)).dropna()
     # df_final_university = df_1.where(df_1['RegionName'] == df_2['RegionName']).dropna()
     
     # df_final_university = df_2[df_2.index.isin(df_1.index)]
