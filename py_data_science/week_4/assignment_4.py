@@ -153,25 +153,35 @@ housing_quarters = convert_housing_data_to_quarters()
 def final_university_df(df_1, df_2):
     first_quarter = recession_start
     last_quarter = recession_bottom
-    # print first_quarter
-    # print last_quarter
     columns_to_keep = ['State', 'RegionName'] + ['2008q1','2008q2', '2008q3', '2008q4','2009q1', '2009q2']
-    housing_in_recession = df_1[columns_to_keep]
-    print housing_in_recession
-    print df_2
+    housing_in_recession = df_1[columns_to_keep].drop_duplicates(subset='RegionName', keep="last").dropna()
 
+    mutual_regions = set(housing_in_recession['RegionName'].values).intersection(df_2['RegionName'].values)
     university_towns = df_2.RegionName.values
-    # print university_towns
 
-    df_final_university = housing_in_recession.where(housing_in_recession['RegionName'].isin(university_towns)).dropna()
-    # df_final_university = df_1.where(df_1['RegionName'] == df_2['RegionName']).dropna()
-    
-    # df_final_university = df_2[df_2.index.isin(df_1.index)]
-    print len(df_final_university)
-    print len(df_2)
+    df_final_university = housing_in_recession.where(housing_in_recession['RegionName'].isin(mutual_regions)).drop_duplicates(subset='RegionName', keep="last").dropna()
+    university_rec_housing = np.mean(df_final_university).round(2)
     # df_final_university.to_csv('df_final_university.csv')
-    return 'test'
-print final_university_df(housing_quarters, df_university_towns)
+    return university_rec_housing
+avg_university_housing_rec = final_university_df(housing_quarters, df_university_towns)
+print avg_university_housing_rec
+
+# ---------------------------------------------------------------------------
+def final_non_university_df(df_1, df_2):
+    first_quarter = recession_start
+    last_quarter = recession_bottom
+    columns_to_keep = ['State', 'RegionName'] + ['2008q1','2008q2', '2008q3', '2008q4','2009q1', '2009q2']
+    housing_in_recession = df_1[columns_to_keep].drop_duplicates(subset='RegionName', keep="last").dropna()
+    mutual_regions = set(housing_in_recession['RegionName'].values).intersection(df_2['RegionName'].values)
+    non_mutual_regions = set(housing_in_recession['RegionName'].values) - set(mutual_regions)
+    university_towns = df_2.RegionName.values
+
+    df_final_non_university = housing_in_recession.where(housing_in_recession['RegionName'].isin(non_mutual_regions)).drop_duplicates(subset='RegionName', keep="last").dropna()
+    non_university_rec_housing = np.mean(df_final_non_university).round(2)
+    
+    return non_university_rec_housing
+avg_non_university_housing_rec = final_non_university_df(housing_quarters, df_university_towns)
+print avg_non_university_housing_rec
 # ---------------------------------------------------------------------------
 def run_ttest(): 
     '''First creates new data showing the decline or growth of housing prices
@@ -190,4 +200,13 @@ def run_ttest():
     
     return "ANSWER"   
 ttest = run_ttest()
+
+# a = [1, 2, 3, 4, 5, 7, 8, 9, 10]
+# b = [3, 4, 5, 6]
+# f = set(a).intersection(b)
+# c = set(a) - set(b)
+# print len(f) + len(c)
+# print len(a)
+# print len(c)
+# print len(f)
 
