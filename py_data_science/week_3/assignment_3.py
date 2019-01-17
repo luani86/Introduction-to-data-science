@@ -24,7 +24,7 @@ def create_energy(file):
     "China, Hong Kong Special Administrative Region": "Hong Kong"}
     df_1['Country'] = df_1['Country'].replace(renamed_countries, regex=True)
     return df_1
-Energy = create_energy('indicators.xls')
+Energy = create_energy('py_data_science/indicators.xls')
 # print Energy.loc[21, 'Energy Supply'] Returns Energy supply value from the index (ID) 21
 # print Energy
 
@@ -38,14 +38,14 @@ def create_GDP(file):
     "Hong Kong SAR, China": "Hong Kong"}
     GDP['Country'] = GDP['Country'].replace(rename_countries, regex=True)
     return GDP
-GDP = create_GDP('world_bank.csv')
+GDP = create_GDP('py_data_science/world_bank.csv')
 # print GDP
 
 # Handling the scimagojr.xlsx file ()
 def create_scimen(file):
     ScimEn = pd.read_excel(file)
     return ScimEn
-ScimEn = create_scimen('scimagojr.xlsx')
+ScimEn = create_scimen('py_data_science/scimagojr.xlsx')
 # print ScimEn
 
 # Joining the files together
@@ -308,8 +308,7 @@ def answer_12(df):
     df = df[columns_to_keep]
     merged = df.merge(new_df, on='Country', how = 'inner')
     # print df
-    bins = [0, 1, 5, 10, 25, 50, 100]
-    merged['binned'] = pd.cut(merged['% Renewable'], bins)
+    merged['binned'] = pd.cut(merged['% Renewable'], 5)
     return merged
 continents_renewable = answer_12(df)
 # print continents_renewable

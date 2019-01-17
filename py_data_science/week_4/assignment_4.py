@@ -202,6 +202,8 @@ def run_ttest(serie_1, serie_2):
     Different = False
     mean_university_housing = np.mean(serie_1).round(2)
     mean_non_university_housing = np.mean(serie_2).round(2)
+    print mean_university_housing
+    print mean_non_university_housing
 
     if mean_university_housing < mean_non_university_housing:
         Better = 'University town'
